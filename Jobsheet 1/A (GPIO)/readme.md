@@ -15,7 +15,8 @@ Percobaan ini ditujukan agar dapat memahami penggunaan pin GPIO pada ESP32. Terd
 
 ![Skematik (Job 1-A)](https://github.com/cakjung/Jobsheet-Embedded/assets/128274951/66c26000-428d-4d83-95aa-9acc5118c28d)
 
-**Program** <a href="https://github.com/vanndw/Jobsheet-System-Embedded/blob/main/Jobsheet%201/A%20(GPIO)/1.Langkah_2/1.A_Langkah_2.ino">(File .ino)</a>
+**Program** <a href="![Job 1A langkah 2](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/da3bf303-f4f7-4cd6-95b1-66be4d795626)
+">(File .ino)</a>
 
 ![image](https://github.com/cakjung/Jobsheet-Embedded/assets/128274951/6fdb5909-513d-4e39-92b7-99230cfb9cc6)
 
