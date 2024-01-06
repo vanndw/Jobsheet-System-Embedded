@@ -13,21 +13,7 @@ Terdapat 2 percobaan yang dilakukan :
 - Resistor 220 Ohm (1 buah)
 - Kabel Jumper (secukupnya)
 
-**Skema Rangkaian**
-
-![Skematik (Job 1-B)](https://github.com/cakjung/Jobsheet-Embedded/assets/128274951/3f0760d2-d9eb-4aab-a234-b688ef62fd7e)
-
-**Program** <a href="https://github.com/cakjung/Jobsheet-Embedded/blob/main/Jobsheet%201/B%20(PWM)/PWM1/PWM1.ino">(File .ino)</a>
-
-![image](https://github.com/cakjung/Jobsheet-Embedded/assets/128274951/1326d238-dcec-474a-b6df-41129977a31f)
-
-**Flowchart**
-
-![Flowchart Job1 B-1](https://github.com/cakjung/Jobsheet-Embedded/assets/128274951/dfffb900-8fdf-4bb0-8a5a-53239ca34066)
-
-**Hasil dan Pembahasan**
-
-![Job 1B_1](https://github.com/cakjung/Jobsheet-Embedded/assets/128274951/9364bc58-fb14-49c2-b333-051d0a8ef9af)
+**Pembahasan**
 
 Program ini memberikan contoh implementasi Pulse Width Modulation (PWM) pada mikrokontroler Arduino untuk mengontrol kecerahan LED. Berikut adalah cara kerjanya:
 
@@ -61,21 +47,7 @@ Program ini menciptakan efek perlahan naik dan turun pada kecerahan LED, yang um
 - Resistor 220 Ohm (3 buah)
 - Kabel Jumper (secukupnya)
 
-**Skema Rangkaian**
-
-![Skematik (Job 1-B)](https://github.com/cakjung/Jobsheet-Embedded/assets/128274951/a0b4743d-f632-4af1-8a28-5b65060eacbb)
-
-**Program** <a href="https://github.com/cakjung/Jobsheet-Embedded/blob/main/Jobsheet%201/B%20(PWM)/PWM2/PWM2.ino">(File .ino)</a>
-
-![image](https://github.com/cakjung/Jobsheet-Embedded/assets/128274951/bae3c01b-7cb2-4c14-8680-7968bc11bbae)
-
-**Flowchart**
-
-![Flowchart Job1 B-2](https://github.com/cakjung/Jobsheet-Embedded/assets/128274951/369cf872-dd94-4084-8ce0-409afbe29897)
-
-**Hasil dan Pembahasan**
-
-![Job 1B_2](https://github.com/cakjung/Jobsheet-Embedded/assets/128274951/2bd4008b-b1fa-4960-8ae7-ec75085a26d2)
+**Pembahasan**
 
 Pada percobaan kedua ini pada dasarnya sama dengan percobaan pertama, hanya saja terdapat 2 LED tambahan. Untuk itu, kita tambahkan 2 variabel baru untuk menginisialisasi pin GPIO (yaitu GPIO 17 dan GPIO 5). Kemudian kita tambahkan 2 fungsi `ledcAttachPin()` untuk mengaktifkan konfigurasi PWM pada 2 pin GPIO tersebut (17 dan 5).
 
