@@ -5,17 +5,20 @@
 2) Arduino IDE
 
 ## 2. Source Code
-![Setting SSID dan PASS]()
+![Setting SSID dan PASS](![Penjelasan Kode](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/dfade275-e0f1-4619-9a7c-3a3f26567eff)
+)
 
 ## 3. Flowchart
-![jobsheet 4 A flowchart]()
+![jobsheet 4 A flowchart](![Flow Chart](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/fc2066aa-c64f-4eb8-b5e0-f0d6592d212d)
+)
 
 
 ## 4. Hasil dan Pembahasan
 ### Dokumentasi Hasil
 1. Tampilan Awal Serial Monitor Sebelum Dihubungkan
 
-   ![Tampilan Awal Serial Monitor](https://github.com/JustBadrun/Embeded_System/assets/128286595/6edc74a3-184d-4e5f-96cb-4947f2bd473a)
+   ![Tampilan Awal Serial Monitor]()![1  Tampilan Awal Serial Monitor Sebelum Dihubungkan](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/10872d86-4999-42a5-8266-28aa47ab3d81)
+
 2. Tampilan Web
    
    ![Tampilan Web](https://github.com/JustBadrun/Embeded_System/assets/128286595/0da30011-d430-45cf-b6d4-a1c536ae52fc)
