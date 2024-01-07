@@ -60,3 +60,8 @@
 
 
 Analisa
+1. Kedua program digunakan untuk mengontrol perangkat (LED) melalui protokol MQTT menggunakan platform mikrokontroler ESP32 (Program 1) dan ESP8266 (Program 2).
+2. Koneksi WiFi digunakan dalam kedua program untuk menghubungkan perangkat ke jaringan, memungkinkan pertukaran data melalui protokol MQTT.
+3. Program 1 menggunakan broker MQTT "broker.emqx.io", sementara Program 2 terhubung ke layanan io.adafruit.com untuk pertukaran pesan.
+4. Keduanya memiliki mekanisme untuk mencoba terus terkoneksi ke broker MQTT jika koneksi terputus, sehingga memastikan kehandalan komunikasi.
+5. Penggunaan topik MQTT dan payload khusus dalam kedua program memungkinkan pengendalian LED dan pertukaran data suhu dengan format JSON pada Program 1.
