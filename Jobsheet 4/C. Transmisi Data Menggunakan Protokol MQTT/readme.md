@@ -9,35 +9,39 @@
 3. XAMPP
 
 ## 3. Source Code
+Penjelasan Kode 
+![Penjelasan Kode](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/cd34761c-cfc2-4a97-b0ce-c0ef65e74c70)
 
- ![Penjelasan Kode](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/c400b610-3a73-4e09-a7be-0058007e3e06)
 
 
 ## 5. Hasil Percobaan
 
 1. Flow chart program ESP32
    
- ![Flow Chart](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/ecb66904-4caa-4bcd-b655-761c3a22ff23)
+![Flow Chart](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/d076b79b-1194-4df9-b2f4-bd836141da65)
+
 
    
 2. Output serial monitor
    
-![2  Output serial monitor](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/78c60d31-81a2-4c43-9626-4c539b573188)
+![2  Output serial monitor](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/40c538a9-3948-4fed-b89f-3c6845afcd62)
 
    
 3. Debug Node-RED
    
-  ![3  Debug Node-RED](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/e683f449-42d4-4e46-b99c-588133006b39)
+ ![3  Debug Node-RED](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/e0e2d373-5764-4ab1-aa52-2cc743712496)
 
    
 4. Dashboard Node-RED
    
-![4  Dashboard Node-RED](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/0f27698a-f5e9-4b44-bbd8-a61b6980d072)
+![4  Dashboard Node-RED](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/dddfac57-0ab1-4360-a074-368e17d11eb6)
+
 
 
 <p align="justify">
 <b><p>6. Analisa </p></b>
 <p>Program menggunakan tiga library, yaitu WiFi untuk koneksi Wi-Fi, PubSubClient untuk koneksi MQTT, dan ArduinoJson untuk memanipulasi data JSON. Kemudian Inisialisasi variabel-variabel yang digunakan, seperti SSID dan password untuk koneksi Wi-Fi, serta alamat server MQTT. Program mencoba untuk terhubung ke jaringan Wi-Fi dengan menggunakan SSID dan password yang telah ditentukan. Data JSON yang akan dikirimkan melibatkan perangkat ID, level, jumlah hujan, dan aliran. 
 Data ini mungkin merepresentasikan informasi dari suatu perangkat atau sensor yang terkait dengan smart water management. Misalnya, dev_id mungkin adalah identifikasi perangkat, level dapat mengindikasikan tinggi air, rainfall dapat menunjukkan jumlah hujan, dan flow mungkin mencerminkan laju aliran air.
+<b> </b>
 
 </p>
