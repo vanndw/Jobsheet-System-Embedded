@@ -10,12 +10,21 @@
 
 ## 3. Source Code
 
-1. Code JSON Multi-Protocol IoT Server dapat dilihat <a href="https://github.com/JustBadrun/Embeded_System/blob/014c31a7786acec166eb84f8575ea29c590a43d6/Jobsheet%204/B.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/flow%20program%20Multi-Protocol%20IoT.json">disini</a>
-2. Program ESP32 transmisi data dummy menggunakan protokol HTTP metode GET dapat dilihat <a href="https://github.com/JustBadrun/Embeded_System/blob/9ab6346c50179de04fe61cd0294bd7dd65c6f647/Jobsheet%204/B.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/transmisi_data_dummy_keNode-Red_protokol_HTTP_metode_Get/transmisi_data_dummy_keNode-Red_protokol_HTTP_metode_Get.ino">disini</a>
-3. Program ESP32 transmisi data dummy menggunakan protokol HTTP metode POST dapat dilihat <a href="https://github.com/JustBadrun/Embeded_System/blob/f67159702c58767bad46a8e4fbd698aec8c29349/Jobsheet%204/B.%20Transmisi%20Data%20Menggunakan%20Protokol%20HTTP/transmisi_data_dummy_ke_Node-Red_protokol_HTTP_metode_POST/transmisi_data_dummy_ke_Node-Red_protokol_HTTP_metode_POST.ino">disini</a>
+1. Program ESP32 transmisi data dummy menggunakan protokol HTTP metode GET 
+![Penjelasan Kode](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/bacd5e0a-48b9-4907-9f7e-e7d924953846)
+
+2. Program ESP32 transmisi data dummy menggunakan protokol HTTP metode POST 
+![Penjelasan Kode](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/dea4bc75-dbcd-4335-ab91-e06f2603e763)
+
 
 ## 4. Flow Program
-![flow program ](https://github.com/JustBadrun/Embeded_System/assets/128286595/aa591bb8-08f0-440f-9152-8d4e04e4d1ef)
+1. Flow Program ESP32 transmisi data dummy menggunakan protokol HTTP metode GET 
+![Flow Program](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/194596fc-6f65-4acd-93e5-cb21984d83c8)
+
+
+2. Program ESP32 transmisi data dummy menggunakan protokol HTTP metode POST 
+![Flow Program](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/58b5daaa-26d2-4e4f-bd7c-d5d3433cf2c5)
+
 
 
 ## 5. Hasil Percobaan Transmisi Data Dummy Menuju Node-Red Menggunakan Protokol HTTP Metode GET
@@ -23,27 +32,31 @@
 
 1. Flow chart program ESP32
    
-   ![Flow Get](https://github.com/JustBadrun/Embeded_System/assets/128286595/a980cef2-565c-4529-8f59-ddac44928c39)
+![1  Flow Chart program ESP32](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/3a16669d-bd62-482a-873e-686dc50b6c24)
 
+  
    
 2. Output serial monitor
    
-   ![serial monitor-metode get](https://github.com/JustBadrun/Embeded_System/assets/128286595/95efca05-5381-4659-a18d-ee3517cd6221)
+  ![2  Output serial monitor](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/fe6f5bdf-09d6-43b9-9c29-645b3c2d8dcc)
+
    
 3. Debug Node-RED
    
-  ![debug-metode GET](https://github.com/JustBadrun/Embeded_System/assets/128286595/3980b3b8-1f65-49ba-97c3-d55c6d86a056)
+ ![3  Debug Node-RED](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/19315c70-1acf-4586-8409-9370dabcbf92)
+
    
 4. Dashboard Node-RED
    
-   ![dashboard-metode get](https://github.com/JustBadrun/Embeded_System/assets/128286595/206fbdd1-facc-488e-89c3-ae2d99a432f4)
+   ![4  Dashboard Node-RED](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/744950b3-bcd7-4911-96f7-46e1da8af285)
+
    
 5. Tabel database MySQL
    
-   ![tabel smartwater-metode get](https://github.com/JustBadrun/Embeded_System/assets/128286595/25f56dd1-f7a9-4e7e-9022-fbf8d4d205dd)
+![5  Tabel database MySQL](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/04aca9a9-10d1-4d32-823b-cfed33f402df)
 
-### Penjelasan Kode
-![Get](https://github.com/JustBadrun/Embeded_System/assets/128286595/a294b978-7bf1-4681-b26e-89792fa62854)
+  
+
 
 Kode tersebut adalah program ESP32 yang menggunakan perangkat WiFi (menggunakan library WiFi.h dan HTTPClient.h) untuk mengirimkan permintaan HTTP GET ke suatu server. Penjelasan dari kode tersebut berada di bawa ini:
 1. **Inklusi Library:**
@@ -143,22 +156,24 @@ Kode tersebut adalah program ESP32 yang menggunakan perangkat WiFi (menggunakan 
 
 1. Flow chart program ESP32
    
-   ![Flow Post](https://github.com/JustBadrun/Embeded_System/assets/128286595/54bf9f70-120b-4e56-a098-3a1d57006b04)
+  ![1  Flow Chart program ESP32](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/473e2dfd-ae3d-4dff-b46a-b087c87cd5ae)
+
 
 2. Output serial monitor
    
-   ![serial monitor-metode POST](https://github.com/JustBadrun/Embeded_System/assets/128286595/00f50206-520b-4ef3-b7c2-e15b526e99aa)
+ ![2  Output serial monitor](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/f00d4e82-49ca-42db-9151-36b5e4957679)
+
    
 3. Debug Node-RED
    
-   ![debug-metode POST](https://github.com/JustBadrun/Embeded_System/assets/128286595/c43f71d6-98c0-4f27-b5cb-48fac635a03b)
+ ![3  Debug Node-RED](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/8c002894-3f8c-412a-bfc2-6f4e414848ff)
+
    
 4. Dashboard Node-RED
    
-   ![dashboard-metode POST](https://github.com/JustBadrun/Embeded_System/assets/128286595/e8173772-417e-41b7-95ec-ebf0ef12a8b1)
+![4  Dashboard Node-RED](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/4c82b81f-8163-47a5-aa1e-b967099fc19a)
 
-### Penjelasan Kode
-![POST](https://github.com/JustBadrun/Embeded_System/assets/128286595/a4ec0ec6-e5e8-4326-895e-0aa07088edbd)
+  
 
 Kode tersebut adalah program ESP32 yang menggunakan perangkat WiFi untuk mengirimkan permintaan HTTP POST ke suatu server secara berkala. Di bawah ini adalah penjelasan singkat untuk setiap bagian dari kode tersebut:
 
@@ -251,3 +266,43 @@ Kode tersebut adalah program ESP32 yang menggunakan perangkat WiFi untuk mengiri
    }
    ```
    Fungsi loop yang berjalan terus-menerus setelah fungsi setup selesai. Dalam loop ini, terdapat logika untuk mengirimkan permintaan HTTP POST ke server setiap 5 detik. Informasi seperti `dev_id`, `level`, `rainfall`, dan `flow` diatur secara manual dan dapat disesuaikan sesuai kebutuhan aplikasi. Jika koneksi WiFi terputus, pesan "WiFi Disconnected" akan dicetak.
+
+
+   # Analisa
+   Program ini dirancang untuk dikompilasi dan dijalankan pada platform ESP dengan menggunakan Arduino IDE. Pastikan Anda telah menginstal pustaka yang diperlukan.
+Perlakukan informasi WiFi dan URL server dengan hati-hati, pastikan sesuai dengan konfigurasi jaringan dan server yang akan digunakan.**Ringkasan Analisa Program:**
+
+1. **Header dan Deklarasi Variabel:**
+   - Program menggunakan library `WiFi.h` dan `HTTPClient.h` untuk mengakses fungsi WiFi dan HTTP pada ESP.
+   - Mendeklarasikan variabel `ssid` dan `password` untuk menyimpan informasi SSID dan password WiFi.
+   - Mendeklarasikan variabel `serverName` untuk menyimpan URL server yang akan dihubungi.
+   - Mendeklarasikan variabel `lastTime` untuk menyimpan waktu terakhir program mengirimkan data.
+   - Mendeklarasikan variabel `timerDelay` untuk menyimpan interval waktu antara pengiriman data (dalam milidetik).
+
+2. **Fungsi `setup`:**
+   - Inisialisasi serial communication dengan kecepatan 115200 bps.
+   - Menghubungkan ke jaringan WiFi dengan menggunakan `WiFi.begin()`.
+   - Menunggu hingga terhubung ke WiFi dengan loop yang menggantung (`while` loop).
+   - Menampilkan informasi IP address setelah terhubung.
+
+3. **Fungsi `loop`:**
+   - Mengecek apakah sudah waktunya untuk mengirim data berdasarkan `timerDelay`.
+   - Jika ya, program akan membuat objek `WiFiClient` dan `HTTPClient`, menyusun data JSON dengan nilai sensor, dan mengirimkan HTTP POST request ke server.
+   - Memeriksa status koneksi WiFi dan menampilkan pesan jika tidak terhubung.
+   - Mengatur ulang `lastTime` untuk waktu selanjutnya.
+
+4. **Pengiriman Data:**
+   - Membuat variabel string `dev_id`, `level`, `rainfall`, dan `flow` untuk menyimpan data sensor (mungkin placeholder, seharusnya data sesuai dengan sensor yang digunakan).
+   - Membentuk data JSON dengan menggunakan string concatenation.
+
+5. **HTTP Request:**
+   - Membuka koneksi HTTP ke server dengan URL yang sudah dibentuk.
+   - Menambahkan header `Content-Type` sebagai `application/json`.
+   - Mengirimkan data JSON melalui HTTP POST request.
+   - Menampilkan status code HTTP response.
+
+6. **Pembersihan Sumber Daya:**
+   - Mengakhiri koneksi HTTP setelah pengiriman data selesai.
+
+7. **Penanganan Koneksi WiFi:**
+   - Mengecek apakah koneksi WiFi masih aktif sebelum mengirimkan data.
