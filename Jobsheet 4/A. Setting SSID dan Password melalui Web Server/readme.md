@@ -5,10 +5,10 @@
 2) Arduino IDE
 
 ## 2. Source Code
-![Setting SSID dan PASS](https://github.com/JustBadrun/Embeded_System/assets/128286595/b12fbf72-de21-41de-894a-a7cf0df85aa0)
+![Setting SSID dan PASS]()
 
 ## 3. Flowchart
-![jobsheet 4 A flowchart](https://github.com/Aisyahnurul/AisyahN-system-embedded/assets/147674662/26b1622e-6ddd-42bb-a2b7-6e63fca710a7)
+![jobsheet 4 A flowchart]()
 
 
 ## 4. Hasil dan Pembahasan
