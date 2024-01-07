@@ -10,10 +10,10 @@
    monitoring dan kendali melalui Platform IoT Node-Red.</b>
 
 <p align="left">Terdapat 4 percobaan dalam praktikum ini yaitu : </p>
-<b> 1. Setting SSID dan Password Wi-Fi ESP32 melalui Web Server</b>
-<b> 2. Transmisi Data Menggunakan Protokol HTTP</b>
-<b> 3. Transmisi Data Menggunakan Protokol MQTT</b>
-<b> 4. Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT</b>
+<p> 1. Setting SSID dan Password Wi-Fi ESP32 melalui Web Server</p>
+<p> 2. Transmisi Data Menggunakan Protokol HTTP</p>
+<p> 3. Transmisi Data Menggunakan Protokol MQTT</p>
+<p> 4. Akuisi Data dan Kendali Perangkat IoT Menggunakan Protokol MQTT</p>
 <b><p align="left">ALAT DAN BAHAN</p></b>
 <p style="font-family:courier;" align="justify">1. ESP 32</p>
 <p style="font-family:courier;" align="justify">2. Aplikasi Arduino IDE</p>
