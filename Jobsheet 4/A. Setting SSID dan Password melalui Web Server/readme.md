@@ -17,23 +17,31 @@
 ### Dokumentasi Hasil
 1. Tampilan Awal Serial Monitor Sebelum Dihubungkan
 
-[Tampilan Awal Serial Monitor]()![1  Tampilan Awal Serial Monitor Sebelum Dihubungkan](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/10872d86-4999-42a5-8266-28aa47ab3d81)
+![1  Tampilan Awal Serial Monitor Sebelum Dihubungkan](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/44b02875-a99c-41b3-9c9a-e08512197419)
+
 
 2. Tampilan Web
    
-   ![Tampilan Web](https://github.com/JustBadrun/Embeded_System/assets/128286595/0da30011-d430-45cf-b6d4-a1c536ae52fc)
+ (![2  tampilan web](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/6eb69119-9b9f-4eb0-9a04-47bf4bb9f5b0))
+ 
 3. Serial Monitor Setelah Memasukkan SSID dan PASS
    
-   ![Serial Monitor Setelah Memasukkan SSID dan PASS](https://github.com/JustBadrun/Embeded_System/assets/128286595/b5b6295a-249e-4deb-8f9d-94e9efa34cd5)
+![3  serial monitor setelah memasukan ssid dan pass](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/940a3d55-d74d-4d81-9628-67cfab173cd5)
+
+ 
 4. Serial Monitor Setelah Berhasil Terhubung
    
-   ![Serial Monitor Setelah Berhasil Terhubung](https://github.com/JustBadrun/Embeded_System/assets/128286595/edbb574a-82a5-4bf2-94b3-53a66fee9daa)
+![4  Serial Monitor Setelah Berhasil Terhubung](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/4c166cf2-e7f7-4a4c-94e5-c99edc8052a4)
+
 
 ### Pembahasan Kode
 #### **Fungsi Utama Kode:**
 
-  * Menghubungkan perangkat ke jaringan WiFi.
-  * Memberikan opsi untuk mengubah kredensial WiFi melalui halaman web jika koneksi gagal.
+Kode ini berfungsi untuk menghubungkan perangkat ke jaringan WiFi. Jika koneksi gagal, kode ini akan menyediakan antarmuka web untuk pengguna mengubah kredensial WiFi.
+
+#### **Alur Kode:**
+
+Kode ini dibagi menjadi dua bagian utama, yaitu setup awal dan loop utama.
 
 #### **Penjelasan Alur Kode:**
   1. Setup Awal:
