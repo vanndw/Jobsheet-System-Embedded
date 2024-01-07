@@ -13,49 +13,50 @@
 
 ## 3. Source Code
 
-![Penjelasan Kode](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/0827cb55-e728-464c-9de8-2fb46006f384)
+![Penjelasan Kode](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/8b570eaa-05b9-4dec-a3c8-7ed339528289)
+
 
 
 ## 4. Flow Program
-![flow program ](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/b81a6645-f5a4-4e38-a4db-43f2d1430a81)
+
+![flowprogram](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/e4aaa58f-0056-42c0-a7d3-c1376b9aa72e)
 
 
 ## 5. Hasil Percobaan Kontrol Nyala LED Melalui Dashboard Node-RED
 
 1. Flow chart program ESP32
    
-  ![Flow chart program ESP32](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/871c806f-8bc7-4e62-be1d-d9e49bbf8c69)
+  ![flowchart](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/4e1fd5a9-aea5-4639-9ba9-ea0f78178884)
 
    
 2. Dokumentasi
    
-![2  Dokumentasi 1](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/e211629d-a585-4f43-8d32-5f48cf0a737a)
+![dokumentasi](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/989fa9e7-4e97-4301-90c3-afcd8114f20a)
 
 
 3. Debug Node-RED
    
-![3  Debug Node-RED](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/3edb5f96-525e-41d9-813c-4e7a1c1a2d57)
+![3  Debug Node-RED](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/080ce587-d28a-40d8-b48b-bf1453a19029)
 
    
 4. Dashboard Node-RED
    
-  ![dashboard1](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/683139e0-5528-4f5e-8de5-9493d4fbfae5)
+ ![dashboard_node_red](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/53db050f-415e-4605-8cd0-e3369edf84c9)
 
 
 ## 6. Hasil Percobaan Kontrol Nyala LED Melalui Dashboard Adafruit
 1. Flow chart program ESP32
 
- ![Flowchart program 2](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/d32033f6-c1f6-486f-abf4-8a6199a6b174)
+ ![flowchart1](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/b7655954-83be-47c8-a2de-b9db9fac6264)
 
 
 2. Dokumentasi 
    
-   ![2  Dokumentasi 2](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/945bcbd8-1ace-4a20-b597-2d4fd04f2b31)
+  ![dokumentasi1](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/c21637e6-7d3c-462a-9a22-e49fdd064cc5)
 
    
 3. Widget On/Off Adafruit
-![2  Dokumentasi](https://github.com/hendrawansantana231/Sistem-Embedded/assets/155714822/69ba2e42-9187-401f-9f36-bc6f6c39cdc0)
+![2  Dokumentasi](https://github.com/vanndw/Jobsheet-System-Embedded/assets/151889936/60dae022-ccc4-4a1d-b231-b76f71c99a2c)
 
 
-<b><p>7. Analisa </p></b>
-<p>Kode ini mengimpor beberapa pustaka yang diperlukan, termasuk pustaka WiFi dan pustaka MQTT dari Adafruit. Kode tersebut digunakan sebagai implementasi untuk menghubungkan perangkat ESP8266 dengan protokol MQTT (Message Queuing Telemetry Transport) ke server Adafruit IO. Program juga akan meng-handle pesan yang diterima dari topik MQTT 'led'. Jika pesan adalah "1", maka pin keluaran akan diaktifkan (HIGH), jika bukan "1", maka pin keluaran akan dimatikan (LOW). Dilakukanlah pengecekan, apakah koneksi ke server MQTT sudah terhubung. Jika belum, maka akan melakukan koneksi ulang dengan retry dan menunggu 5 detik di setiap percobaan.</p>
+Analisa
