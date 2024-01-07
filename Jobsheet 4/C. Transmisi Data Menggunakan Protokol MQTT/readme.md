@@ -42,6 +42,11 @@ Penjelasan Kode
 <b><p>6. Analisa </p></b>
 <p>Program menggunakan tiga library, yaitu WiFi untuk koneksi Wi-Fi, PubSubClient untuk koneksi MQTT, dan ArduinoJson untuk memanipulasi data JSON. Kemudian Inisialisasi variabel-variabel yang digunakan, seperti SSID dan password untuk koneksi Wi-Fi, serta alamat server MQTT. Program mencoba untuk terhubung ke jaringan Wi-Fi dengan menggunakan SSID dan password yang telah ditentukan. Data JSON yang akan dikirimkan melibatkan perangkat ID, level, jumlah hujan, dan aliran. 
 Data ini mungkin merepresentasikan informasi dari suatu perangkat atau sensor yang terkait dengan smart water management. Misalnya, dev_id mungkin adalah identifikasi perangkat, level dapat mengindikasikan tinggi air, rainfall dapat menunjukkan jumlah hujan, dan flow mungkin mencerminkan laju aliran air.
-<b> </b>
+
+   1. **Transmisi Data IoT:** Program ini dirancang untuk aplikasi IoT (Internet of Things) di mana perangkat ESP32 terhubung ke jaringan WiFi dan mengirimkan data sensor ke broker MQTT ("broker.emqx.io"). Data sensor dalam hal ini mencakup ID perangkat, tinggi air, curah hujan, dan laju aliran, yang diformat sebagai muatan JSON.
+
+2. **Penanganan Koneksi:** Kode ini mencakup fungsi untuk menangani koneksi WiFi (`setup_wifi()`) dan koneksi MQTT (`reconnect()`). ESP32 mencoba untuk terhubung ke jaringan WiFi yang ditentukan dan, jika terputus, terus-menerus mencoba untuk terhubung kembali ke broker MQTT. Program ini menghasilkan ID klien acak untuk komunikasi MQTT, meningkatkan keamanan dan menghindari konflik dengan perangkat lain.
+
+3. **Pemformatan Data dengan JSON:** Data sensor diformat menggunakan pustaka ArduinoJson untuk membuat objek JSON. Objek ini kemudian dikonversi menjadi string (`payload`) dan dipublikasikan ke topik MQTT "flood/node1" pada interval reguler dalam fungsi `loop()`. Desain ini memungkinkan representasi data yang terstruktur, memudahkan untuk menguraikan dan menginterpretasikan informasi di sisi penerima.</b>
 
 </p>
